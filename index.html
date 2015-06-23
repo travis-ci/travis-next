@@ -1,0 +1,32 @@
+---
+title: Travis Build Site
+layout: default
+---
+
+<header class="main-header">
+  <h1>{{ page.title }}</h1>
+</header>
+
+<div class="main-content">
+  <ul class="steps">
+
+    {% for item in site.data.steps %}
+
+      <li class="step">
+        <div class="step-icon">
+          <div class="icon-{{item.icon}}"></div>
+        </div>
+        <div class="step-main">
+          <h2>{{item.title}}</h2>
+          <p>{{item.description}}</p>
+        </div>
+        <div class="step-status">
+          <div>{{item.status}}</div>
+          <div>{{item.priority}} Priority</div>
+        </div>
+      </li>
+
+    {% endfor %}
+
+  </ul>
+</div>

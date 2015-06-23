@@ -1,0 +1,25 @@
+
+- 1:
+  title: 'Add Xcode 6.4 and 7 support'
+  description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard.'
+  icon: 'compass'
+  status: 'In Progress'
+  priority: 'high'
+- 2:
+  title: 'Update Repository Settings Screen'
+  description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard.'
+  icon: 'clipboard'
+  status: 'Planning'
+  priority: 'normal'
+- 3:
+  title: 'Improve Repository Directory Caching'
+  description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard.'
+  icon: 'clipboard'
+  status: 'Delayed'
+  priority: 'high'
+- 4:
+  title: 'Subscription Billing Improvements'
+  description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard.'
+  icon: 'shipment'
+  status: 'Shipped'
+  priority: 'high'
