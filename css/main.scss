@@ -3,33 +3,35 @@
 ---
 @charset "utf-8";
 
+$font-size-s: 14px;
+$font-size-sm: 16px;
+$font-size-m: 18px;
+$font-size-ml: 22px;
+$font-size-l: 36px;
 
+$white: #fff;
+$cream-light: #FAFAF8;
+$cream-dark: #EFF0EC;
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$grey-lighter: #E0E1E2;
+$grey-light: #A1A0A0;
+$grey-medium: #969496;
+$grey-dark: #808080;
 
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
+$red-light: #D7625F;
+$red-dark: #DB423C;
+$teal-dark: #5BA5A4;
+$yellow-light: #D2C93B;
+$yellow-dark: #CDBC2C;
+$cream-light: #FAFAF8;
+$cream-dark: #f1efec;
+$top-height: 55px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+@import "foundation/settings";
+@import "foundation/functions";
+@import "foundation/components/grid";
 @import "base";
 @import "layout";
+@import "top";
