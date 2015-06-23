@@ -1,8 +1,10 @@
 
 .logo
   position: relative
-  margin: 0 1.5rem 0 0
+  margin: 0 1.5rem 0 $column-gutter/2
   float: left
+  @media #{$xlarge-up}
+    margin: 0 1.5rem 0 0
   a
     display: block
     width: 100px
