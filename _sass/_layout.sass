@@ -1,0 +1,28 @@
+
+$bg: #D9E4E6
+
+.wrapper
+  min-height: 100vh
+  padding: 0 $column-gutter/2
+  overflow-y: auto
+  background: linear-gradient(180deg, $white 0%, $white 14%, $bg 15%, $bg)
+
+  @media #{$medium-up}
+    padding: 0
+
+
+.main-header
+  margin: 1em 0 8em
+  h1
+    font-size: 40px
+    color: #3c545e
+    text-align: center
+
+
+.main
+  padding-bottom: 5rem
+  overflow-y: inherit
+
+  @media #{$medium-up}
+    width: 1024px
+    margin: auto

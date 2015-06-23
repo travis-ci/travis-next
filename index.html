@@ -16,14 +16,15 @@ layout: default
         <div class="step-icon">
           <div class="icon-{{item.icon}}"></div>
         </div>
+        <div class="step-status">
+          <div class="step-stat">{{item.status}}</div>
+          <div class="step-prio">{{item.priority}} Priority</div>
+        </div>
         <div class="step-main">
           <h2>{{item.title}}</h2>
           <p>{{item.description}}</p>
         </div>
-        <div class="step-status">
-          <div>{{item.status}}</div>
-          <div>{{item.priority}} Priority</div>
-        </div>
+        
       </li>
 
     {% endfor %}
