@@ -1,7 +1,7 @@
 
 - 1:
   title: 'Add iOS 9 support'
-  description: 'Apple released Xcode 7 and the iOS 9 SDK at WWDC. Everyone is excited to test their apps against the latest SDKs and Swift 2.0, and we're working hard to get Xcode 7 ready for you to test on.'
+  description: 'Apple released Xcode 7 and the iOS 9 SDK at WWDC. Everyone is excited to test their apps against the latest SDKs and Swift 2.0, and we are working hard to get Xcode 7 ready for you to test on.'
   icon: 'compass'
   status: 'In Progress'
   priority: 'high'
