@@ -1,15 +1,15 @@
 
 - 1:
-  title: 'Add iOS 8.4 and 9 SDK support'
-  description: 'Apple released new Xcode versions with support for the latest iOS SDKs at WWDC. For us to offer these to our awesome users we need to install the betas on our VMware cloud and run some stress tests against them.'
+  title: 'Add iOS 9 support'
+  description: 'Apple released Xcode 7 and the iOS 9 SDK at WWDC. Everyone is excited to test their apps against the latest SDKs and Swift 2.0, and we're working hard to get Xcode 7 ready for you to test on.'
   icon: 'compass'
   status: 'In Progress'
   priority: 'high'
 - 2:
   title: 'Update Repository Settings Screen'
   description: 'The current setting screen is spread across three tabs, which makes settings less obvious to find. This change brings a bit of polish to the UI, as well as some usability improvements.'
-  icon: 'clipboard'
-  status: 'Planning'
+  icon: 'compass'
+  status: 'In Progress'
   priority: 'normal'
 - 3:
   title: 'Improve Repository Directory Caching'
@@ -18,14 +18,20 @@
   status: 'Delayed'
   priority: 'high'
 - 4:
-  title: 'Subscription Billing Improvements'
-  description: 'Users have reported various UI issues when signing up for a new subscription, as well as when canceling their current subscription. This update will also include an invoice history of all past payments.'
-  icon: 'shipment'
-  status: 'Shipped'
-  priority: 'high'
-- 5:
   title: 'User Dashboard (including starred repositories)'
   description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard.'
   icon: 'clipboard'
   status: 'Delayed'
   priority: 'low'
+- 5:
+  title: 'Add iOS 8.4 and 9 SDK support'
+  description: 'Apple released new Xcode versions with support for the latest iOS SDKs at WWDC. For us to offer these to our awesome users we need to install the betas on our VMware cloud and run some stress tests against them.'
+  icon: 'shipment'
+  status: 'Shipped'
+  priority: 'high'
+- 6:
+  title: 'Subscription Billing Improvements'
+  description: 'Users have reported various UI issues when signing up for a new subscription, as well as when canceling their current subscription. This update will also include an invoice history of all past payments.'
+  icon: 'shipment'
+  status: 'Shipped'
+  priority: 'high'
