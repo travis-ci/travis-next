@@ -19,7 +19,7 @@
   priority: 'high'
 - 4:
   title: 'Docker Support'
-  description: 'When running builds, directory caching should be fast, reliable and smart. The current caching implemention does not handle change detection well, and the archive format can be slow when there are lots of files. We have deployed changes to use gzip vs bzip, and will be changing from mtime detection to md5 checksums.'
+  description: 'Using Docker within your build is not possible on our current infrastructure due to running containers within containers being a security risk. We have in Beta a new VM setup which will allow for the use of Docker within your builds, please contact us for more information.'
   icon: 'compass'
   status: 'In Progress'
   priority: 'high'
