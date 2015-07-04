@@ -13,19 +13,19 @@
   priority: 'normal'
 - 3:
   title: 'Ubuntu 14.04 Support'
-  description: 'Current Linux VMs are Ubunut 12.04 Precise. We are in the process of making 14.04 available for all our awesome users.'
+  description: 'Current Linux VMs are Ubunut 12.04 Precise. We are in the process of making 14.04 available for all our awesome users. Please contact us if you would like to be included in the Beta.'
   icon: 'compass'
   status: 'In Progress'
   priority: 'high'
 - 4:
   title: 'Docker Support'
-  description: 'Using Docker within your build is not possible on our current infrastructure due to running containers within containers being a security risk. We have in Beta a new VM setup which will allow for the use of Docker within your builds, please contact us for more information.'
+  description: 'Using Docker within your build is not possible on our current infrastructure due to running containers within containers being a security risk. We have in Beta a new VM setup which will allow for the use of Docker within your builds, please contact support for more information.'
   icon: 'compass'
   status: 'In Progress'
   priority: 'high'
 - 5:
   title: 'Improve Repository Directory Caching'
-  description: 'When running builds, directory caching should be fast, reliable and smart. The current caching implemention does not handle change detection well, and the archive format can be slow when there are lots of files. We have deployed changes to use gzip vs bzip, and will be changing from mtime detection to md5 checksums.'
+  description: 'When running builds, directory caching should be fast, reliable and smart. We have deployed changes to use gzip vs bzip, and will be changing from mtime detection to md5 checksums.'
   icon: 'compass'
   status: 'In Progress'
   priority: 'high'
