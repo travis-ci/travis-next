@@ -19,7 +19,7 @@
   priority: 'high'
 - 4:
   title: 'Docker Support'
-  description: 'Using Docker within your build is not possible on our current infrastructure due to running containers within containers being a security risk. We have in Beta a new VM setup which will allow for the use of Docker within your builds, please contact support for more information.'
+  description: 'We have in Beta a new VM setup which will allow for the use of Docker within your builds, please contact support for more information.'
   icon: 'compass'
   status: 'In Progress'
   priority: 'high'
