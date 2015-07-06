@@ -36,12 +36,18 @@
   status: 'Delayed'
   priority: 'low'
 - 7:
+  title: 'Improve GitHub Sync'
+  description: 'Our GitHub Sync service has been having performance issues due to excessive memory usage. Also, due to GitHub API changes, we are updating sync to conform to the recent changes.'
+  icon: 'compass'
+  status: 'In Progress'
+  priority: 'normal'
+- 8:
   title: 'Add iOS 8.4 SDK support'
   description: 'Apple released new Xcode versions with support for the latest iOS SDKs at WWDC. For us to offer these to our awesome users we need to install the betas on our VMware cloud and run some stress tests against them.'
   icon: 'shipment'
   status: 'Shipped'
   priority: 'high'
-- 8:
+- 9:
   title: 'Subscription Billing Improvements'
   description: 'Users have reported various UI issues when signing up for a new subscription, as well as when canceling their current subscription. This update will also include an invoice history of all past payments.'
   icon: 'shipment'
