@@ -22,7 +22,7 @@
   description: 'We have in Beta a new VM setup which will allow for the use of Docker within your builds, please contact support for more information.'
   icon: 'compass'
   status: 'In Progress'
-  priority: 'high'
+  priority: 'normal'
 - 5:
   title: 'Improve Repository Directory Caching'
   description: 'When running builds, directory caching should be fast, reliable and smart. We have deployed changes to use gzip vs bzip, and will be changing from mtime detection to md5 checksums.'
