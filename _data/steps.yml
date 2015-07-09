@@ -13,7 +13,7 @@
   priority: 'normal'
 - 3:
   title: 'Ubuntu 14.04 Support'
-  description: 'Current Linux VMs are Ubunut 12.04 Precise. We are in the process of making 14.04 available for all our awesome users. Please contact us if you would like to be included in the Beta.'
+  description: 'Current Linux VMs are Ubuntu 12.04 Precise. We are in the process of making 14.04 available for all our awesome users. Please contact us if you would like to be included in the Beta.'
   icon: 'compass'
   status: 'In Progress'
   priority: 'high'
