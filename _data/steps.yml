@@ -48,12 +48,18 @@
   status: 'Planning'
   priority: 'normal'
 - 9:
+  title: 'Support Erlang 17.5 and 18'
+  description: 'We have updated our Erlang build environment to support Erlang 17.5 and 18.'
+  icon: 'shipment'
+  status: 'Shipped'
+  priority: 'high'
+- 10:
   title: 'Add iOS 8.4 SDK support'
   description: 'Apple released new Xcode versions with support for the latest iOS SDKs at WWDC. For us to offer these to our awesome users we need to install the betas on our VMware cloud and run some stress tests against them.'
   icon: 'shipment'
   status: 'Shipped'
   priority: 'high'
-- 10:
+- 11:
   title: 'Subscription Billing Improvements'
   description: 'Users have reported various UI issues when signing up for a new subscription, as well as when canceling their current subscription. This update will also include an invoice history of all past payments.'
   icon: 'shipment'
