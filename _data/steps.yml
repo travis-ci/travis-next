@@ -65,3 +65,9 @@
   icon: 'shipment'
   status: 'Shipped'
   priority: 'high'
+- 12:
+  title: 'Update Customer Support Live Chat'
+  description: "Our previous use of Slack for customer live chat has been causing problems for customers to log in due to limitations in Slack's guest user model. We've rolled out a built-in live chat for more direction communication."
+  icon: 'shipment'
+  status: 'Shipped'
+  priority: 'normal'
