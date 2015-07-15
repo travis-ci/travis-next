@@ -71,3 +71,9 @@
   icon: 'shipment'
   status: 'Shipped'
   priority: 'normal'
+- 13:
+  title: '"Custom" deployment provider'
+  description: 'A new deployment provider "Custom", which runs a single command for deployment has been deployed.'
+  icon: 'shipment'
+  status: 'Shipped'
+  priority: 'normal'
