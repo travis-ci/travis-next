@@ -5,24 +5,12 @@
   icon: 'compass'
   status: 'In Progress'
   priority: 'high'
-- 2:
-  title: 'Update Repository Settings Screen'
-  description: 'The current setting screen is spread across three tabs, which makes settings less obvious to find. This change brings a bit of polish to the UI, as well as some usability improvements.'
-  icon: 'compass'
-  status: 'In Progress'
-  priority: 'normal'
 - 3:
   title: 'Ubuntu 14.04 Support'
   description: 'Current Linux VMs are Ubuntu 12.04 Precise. We are in the process of making 14.04 available for all our awesome users. Please contact us if you would like to be included in the Beta.'
   icon: 'compass'
   status: 'In Progress'
   priority: 'high'
-- 4:
-  title: 'Docker Support'
-  description: 'We have in Beta a new VM setup which will allow for the use of Docker within your builds, please contact support for more information.'
-  icon: 'shipment'
-  status: 'Shipped'
-  priority: 'normal'
 - 5:
   title: 'Improve Repository Directory Caching'
   description: 'When running builds, directory caching should be fast, reliable and smart. We have deployed changes to use gzip vs bzip, and will be changing from mtime detection to md5 checksums.'
@@ -48,30 +36,42 @@
   status: 'Planning'
   priority: 'normal'
 - 9:
+  title: 'Update Repository Settings Screen'
+  description: 'The current setting screen is spread across three tabs, which makes settings less obvious to find. This change brings a bit of polish to the UI, as well as some usability improvements.'
+  icon: 'shipment'
+  status: 'Shipped'
+  priority: 'normal'
+- 10:
+  title: 'Docker Support'
+  description: 'We have in Beta a new VM setup which will allow for the use of Docker within your builds, please contact support for more information.'
+  icon: 'shipment'
+  status: 'Shipped'
+  priority: 'normal'
+- 11:
   title: 'Support Erlang 17.5 and 18'
   description: 'We have updated our Erlang build environment to support Erlang 17.5 and 18.'
   icon: 'shipment'
   status: 'Shipped'
   priority: 'high'
-- 10:
+- 12:
   title: 'Add iOS 8.4 SDK support'
   description: 'Apple released new Xcode versions with support for the latest iOS SDKs at WWDC. For us to offer these to our awesome users we need to install the betas on our VMware cloud and run some stress tests against them.'
   icon: 'shipment'
   status: 'Shipped'
   priority: 'high'
-- 11:
+- 13:
   title: 'Subscription Billing Improvements'
-  description: 'Users have reported various UI issues when signing up for a new subscription, as well as when canceling their current subscription. This update will also include an invoice history of all past payments.'
+  description: 'Customers have reported various UI issues when signing up for a new subscription, as well as when canceling their current subscription. This update will also include an invoice history of all past payments.'
   icon: 'shipment'
   status: 'Shipped'
   priority: 'high'
-- 12:
+- 14:
   title: 'Update Customer Support Live Chat'
   description: "Our previous use of Slack for customer live chat has been causing problems for customers to log in due to limitations in Slack's guest user model. We've rolled out a built-in live chat for more direction communication."
   icon: 'shipment'
   status: 'Shipped'
   priority: 'normal'
-- 13:
+- 15:
   title: '"Custom" deployment provider'
   description: 'A new deployment provider "Custom", which runs a single command for deployment has been deployed.'
   icon: 'shipment'
