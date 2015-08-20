@@ -20,8 +20,8 @@
 - 4:
   title: 'Docker Support'
   description: 'We have in Beta a new VM setup which will allow for the use of Docker within your builds, please contact support for more information.'
-  icon: 'compass'
-  status: 'In Progress'
+  icon: 'shipment'
+  status: 'Shipped'
   priority: 'normal'
 - 5:
   title: 'Improve Repository Directory Caching'
