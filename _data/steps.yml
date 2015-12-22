@@ -1,28 +1,10 @@
 
-- 1:
-  title: 'Add iOS 9 support'
-  description: 'Apple released Xcode 7 and the iOS 9 SDK at WWDC. Everyone is excited to test their apps against the latest SDKs and Swift 2.0, and we are working hard to get Xcode 7 ready for you to test on.'
-  icon: 'compass'
-  status: 'In Progress'
-  priority: 'high'
-- 3:
-  title: 'Ubuntu 14.04 Support'
-  description: 'Current Linux VMs are Ubuntu 12.04 Precise. We are in the process of making 14.04 available for all our awesome users. Please find more details about the open Beta at: http://docs.travis-ci.com/user/trusty-ci-environment/'
-  icon: 'compass'
-  status: 'In Progress'
-  priority: 'high'
 - 5:
   title: 'Improve Repository Directory Caching'
   description: 'When running builds, directory caching should be fast, reliable and smart. We have deployed changes to use gzip vs bzip, and will be changing from mtime detection to md5 checksums.'
   icon: 'compass'
   status: 'In Progress'
   priority: 'high'
-- 6:
-  title: 'Improve GitHub Sync'
-  description: 'Our GitHub Sync service has been having performance issues due to excessive memory usage. Also, due to GitHub API changes, we are updating sync to conform to the recent changes.'
-  icon: 'compass'
-  status: 'In Progress'
-  priority: 'normal'
 - 7:
   title: 'User Dashboard (including starred repositories)'
   description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard.'
@@ -75,5 +57,23 @@
   title: '"Custom" deployment provider'
   description: 'A new deployment provider "Custom", which runs a single command for deployment has been deployed.'
   icon: 'shipment'
+  status: 'Shipped'
+  priority: 'normal'
+- 1:
+  title: 'Add iOS 9/9.1/9.2 support'
+  description: 'Apple released Xcode 7 and the iOS 9 SDK at WWDC. Everyone is excited to test their apps against the latest SDKs and Swift 2.0, and we are working hard to get Xcode 7 ready for you to test on.'
+  icon: 'compass'
+  status: 'Shipped'
+  priority: 'high'
+- 3:
+  title: 'Ubuntu 14.04 Support'
+  description: 'Current Linux VMs are Ubuntu 12.04 Precise. We are in the process of making 14.04 available for all our awesome users. Please find more details about the open Beta at: http://docs.travis-ci.com/user/trusty-ci-environment/'
+  icon: 'compass'
+  status: 'Shipped'
+  priority: 'high'
+- 6:
+  title: 'Improve GitHub Sync'
+  description: 'Our GitHub Sync service has been having performance issues due to excessive memory usage. Also, due to GitHub API changes, we are updating sync to conform to the recent changes.'
+  icon: 'compass'
   status: 'Shipped'
   priority: 'normal'
