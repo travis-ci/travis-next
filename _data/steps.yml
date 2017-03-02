@@ -13,7 +13,7 @@
   priority: 'normal'
 - 8:
   title: 'User Dashboard (including starred repositories)'
-  description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard.'
+  description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard. Check out <a href="https://blog.travis-ci.com/2017-02-28-introducing-dashboard">how to start using the Dashboard</a>.'
   icon: 'clipboard'
   status: 'Shipped'
   priority: 'low'
