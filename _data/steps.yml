@@ -6,17 +6,17 @@
   status: 'In Progress'
   priority: 'high'
 - 7:
-  title: 'User Dashboard (including starred repositories)'
-  description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard.'
-  icon: 'clipboard'
-  status: 'Delayed'
-  priority: 'low'
-- 8:
   title: 'Repository Branches Improvements'
   description: 'The Branches tab when viewing a repository is set for a range of improvements, including syncing active status from GitHub, viewing build history for a branch, and triggering a new build for a branch.'
   icon: 'clipboard'
   status: 'Planning'
   priority: 'normal'
+- 8:
+  title: 'User Dashboard (including starred repositories)'
+  description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard. Check out <a href="https://blog.travis-ci.com/2017-02-28-introducing-dashboard">how to start using the Dashboard</a>.'
+  icon: 'clipboard'
+  status: 'Shipped'
+  priority: 'low'
 - 9:
   title: 'Update Repository Settings Screen'
   description: 'The current setting screen is spread across three tabs, which makes settings less obvious to find. This change brings a bit of polish to the UI, as well as some usability improvements.'
