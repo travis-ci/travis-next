@@ -1,5 +1,5 @@
 .steps
-  padding: 0
+  padding: 0 0 5em
   margin: 0
   list-style-type: none
 
@@ -30,7 +30,7 @@
     @include grid-column(9)
   h2
     margin: 0
-    color: #1e2a2f
+    color: #39a669
     font-size: 24px
 
   p
@@ -55,11 +55,14 @@
   text-transform: capitalize
 
 .step-stat
-  background-color: #f1f5f7
+  background-color: #e8f1f2
   border-radius: 4px
   color: #3c545e
-  padding: .6rem 1rem
-  font-size: $font-size-ml
+  padding: .6rem .7rem
+  font-size: $font-size-sm
   text-align: center
   font-weight: 300
+  @media #{$large-up}
+    padding: .6rem 1rem
+    font-size: $font-size-ml
 

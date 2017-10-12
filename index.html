@@ -1,33 +1,37 @@
 ---
-title: Travis Build Site
 layout: default
 ---
 
 <header class="main-header">
-  <h1>{{ page.title }}</h1>
+  <div class="wrapper">
+    <h1>Trafis Build Site</h1>
+    <h2>See what we're building next on Travis CI</h2>
+  </div>
 </header>
 
 <div class="main-content">
-  <ul class="steps">
+  <div class="wrapper">
+    <ul class="steps">
 
-    {% for item in site.data.steps %}
+      {% for item in site.data.steps %}
 
-      <li class="step">
-        <div class="step-icon">
-          <div class="icon-{{item.icon}}"></div>
-        </div>
-        <div class="step-status">
-          <div class="step-stat">{{item.status}}</div>
-          <div class="step-prio">{{item.priority}} Priority</div>
-        </div>
-        <div class="step-main">
-          <h2>{{item.title}}</h2>
-          <p>{{item.description}}</p>
-        </div>
-        
-      </li>
+        <li class="step">
+          <div class="step-icon">
+            <div class="icon-{{item.icon}}"></div>
+          </div>
+          <div class="step-status">
+            <div class="step-stat">{{item.status}}</div>
+            <div class="step-prio">{{item.priority}} Priority</div>
+          </div>
+          <div class="step-main">
+            <h2>{{item.title}}</h2>
+            <p>{{item.description}}</p>
+          </div>
 
-    {% endfor %}
+        </li>
 
-  </ul>
+      {% endfor %}
+
+    </ul>
+  </div>
 </div>

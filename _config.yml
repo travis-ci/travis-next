@@ -1,8 +1,8 @@
 # Site settings
-title: Travis Build Site
-description: 
+title: Travis CI Build Site
+description: "The public product road map for Travis CI"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://next.travis-ci.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
