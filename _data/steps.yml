@@ -1,20 +1,48 @@
-
-- 5:
-  title: 'Improve Repository Directory Caching'
-  description: 'When running builds, directory caching should be fast, reliable and smart. We have deployed changes to use gzip vs bzip, and will be changing from mtime detection to md5 checksums.'
+- 17:
+  title: 'Enterprise: Trusty build containers'
+  description: 'Provide Ubuntu 14.04 (Trusty Tar) build images for Enterprise users.'
+  icon: 'shipment'
+  status: 'Beta'
+  priority: 'high'
+- 19:
+  title: 'Enterprise: Configurable queues'
+  description: 'Users should be able to configure build queues to build specific projects only on certain machines'
+  icon: 'shipment'
+  status: 'Beta'
+  priority: 'normal'
+- 20:
+  title: 'Enterprise 2.2'
+  description: 'With Enterprise 2.2, we are adding many new features to our Enterprise services, including bringing some over from our hosted users'
+  status: 'In Progress'
+  priority: 'high'
+- 16:
+  title: 'Improve macOS performance'
+  description: 'We want to improve the experience of our macOS users. Steps have been taken, and we are investigating further ones.'
   icon: 'compass'
   status: 'In Progress'
   priority: 'high'
+- 18:
+  title: 'Enterprise: MacOS Build Support'
+  description: 'Ship support for iOS/macOS build infrastructure to enable Enterprise users to also build iOS/macOS specific projects'
+  icon: 'clipboard'
+  status: 'Planning'
+  priority: 'normal'
 - 7:
   title: 'Repository Branches Improvements'
   description: 'The Branches tab when viewing a repository is set for a range of improvements, including syncing active status from GitHub, viewing build history for a branch, and triggering a new build for a branch.'
   icon: 'clipboard'
   status: 'Planning'
   priority: 'normal'
+- 5:
+  title: 'Improve Repository Directory Caching'
+  description: 'When running builds, directory caching should be fast, reliable and smart. We have deployed changes to use gzip vs bzip, and will be changing from mtime detection to md5 checksums.'
+  icon: 'shipment'
+  status: 'Shipped'
+  priority: 'high'
 - 8:
   title: 'User Dashboard (including starred repositories)'
   description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard. Check out <a href="https://blog.travis-ci.com/2017-02-28-introducing-dashboard">how to start using the Dashboard</a>.'
-  icon: 'clipboard'
+  icon: 'shipment'
   status: 'Shipped'
   priority: 'low'
 - 9:
