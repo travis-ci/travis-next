@@ -23,7 +23,7 @@
   status: 'In Progress'
   priority: 'high'
 - 7:
-  title: "Strict Build Configuration Parser"
+  title: "Standardized Build Configuration Parser"
   description: "Automatically detect and, where possible, correct incorrect or missing configuration entries in the .travis.yml file."
   icon: 'clipboard'
   status: 'Planning'
