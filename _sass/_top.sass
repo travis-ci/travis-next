@@ -1,8 +1,10 @@
 
 .logo
   position: relative
-  margin: 0 1.5rem 0 0
+  margin: 0 1.5rem 0 $column-gutter/2
   float: left
+  @media #{$xlarge-up}
+    margin: 0 1.5rem 0 0
   a
     display: block
     width: 100px
@@ -18,11 +20,11 @@
     margin-left: 0
 
 .top
-  background-color: #eff0ec
+  background-color: #f1f1f1
   margin-bottom: 2em
 .topbar
   font-size: $font-size-m
-  background-color: #eff0ec
+  background-color: #f1f1f1
   color: $grey-light
 
 .navigation

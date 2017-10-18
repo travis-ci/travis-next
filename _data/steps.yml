@@ -1,25 +1,42 @@
-
 - 1:
-  title: 'Add Xcode 6.4 and 7 support'
-  description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard.'
+  title: 'Enterprise: Trusty build containers'
+  description: 'Provide Ubuntu 14.04 (Trusty Tahr) build images for Enterprise users.'
+  icon: 'shipment'
+  status: ' Beta'
+  priority: 'high'
+- 2:
+  title: 'Enterprise: Configurable queues'
+  description: 'Users should be able to configure build queues to build specific projects only on certain machines'
+  icon: 'shipment'
+  status: 'Beta'
+  priority: 'normal'
+- 3:
+  title: 'Enterprise 2.2'
+  description: 'With Enterprise 2.2, we are adding many new features to our Enterprise services, including bringing some over from our hosted users'
   icon: 'compass'
   status: 'In Progress'
   priority: 'high'
-- 2:
-  title: 'Update Repository Settings Screen'
-  description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard.'
+- 4:
+  title: 'Improve macOS performance'
+  description: 'We want to improve the experience of our macOS users. Steps have been taken, and we are investigating further ones.'
+  icon: 'compass'
+  status: 'In Progress'
+  priority: 'high'
+- 7:
+  title: "Standardized Build Configuration Parser"
+  description: "Automatically detect and, where possible, correct incorrect or missing configuration entries in the .travis.yml file."
+  icon: 'clipboard'
+  status: 'Planning'
+  priority: 'normal'  
+- 5:
+  title: 'Enterprise: MacOS Build Support'
+  description: 'Ship support for iOS/macOS build infrastructure to enable Enterprise users to also build iOS/macOS specific projects'
   icon: 'clipboard'
   status: 'Planning'
   priority: 'normal'
-- 3:
-  title: 'Improve Repository Directory Caching'
-  description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard.'
+- 6:
+  title: 'Repository Branches Improvements'
+  description: 'The Branches tab when viewing a repository is set for a range of improvements, including syncing active status from GitHub, viewing build history for a branch, and triggering a new build for a branch.'
   icon: 'clipboard'
-  status: 'Delayed'
-  priority: 'high'
-- 4:
-  title: 'Subscription Billing Improvements'
-  description: 'Users will be able to select the projects they want to keep a close eye on at all times. These repos will be kept at the top of their user dashboard.'
-  icon: 'shipment'
-  status: 'Shipped'
-  priority: 'high'
+  status: 'Planning'
+  priority: 'normal'
