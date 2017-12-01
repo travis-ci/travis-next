@@ -27,7 +27,7 @@
   description: "Automatically detect and, where possible, correct incorrect or missing configuration entries in the .travis.yml file."
   icon: 'clipboard'
   status: 'Planning'
-  priority: 'normal'  
+  priority: 'normal'
 - 5:
   title: 'Enterprise: MacOS Build Support'
   description: 'Ship support for iOS/macOS build infrastructure to enable Enterprise users to also build iOS/macOS specific projects'
@@ -39,4 +39,10 @@
   description: 'The Branches tab when viewing a repository is set for a range of improvements, including syncing active status from GitHub, viewing build history for a branch, and triggering a new build for a branch.'
   icon: 'clipboard'
   status: 'Planning'
+  priority: 'normal'
+- 7:
+  title: 'Enterprise: Operations manual'
+  description: 'Provides additional documentation for emergency situations'
+  icon: 'clipboard'
+  status: 'Shipped'
   priority: 'normal'
